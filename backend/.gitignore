@@ -1,0 +1,21 @@
+lib
+config/dev.py
+data/*
+!data/*.example
+!data/app.json
+.idea
+.gcloudignore
+requirements.txt
+.venv_*
+
+# Unit test & coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
